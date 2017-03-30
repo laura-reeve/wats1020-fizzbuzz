@@ -18,8 +18,6 @@ var i = 1;
 // loop runs 1 - 20
 
 while (i <= 20) {
-  console.log(i);
-    i++;
 //if statements 
 //run 15 first or 3 or 5 will run first
   if ( i % 15 === 0 ) {
@@ -32,6 +30,12 @@ while (i <= 20) {
   console.log(a);
     i++; 
 }
+  else {
+  console.log(i);
+    i++;
+    }
+//close while loop
 }
+
 
 
