@@ -1,37 +1,30 @@
-// Place your FizzBuzz code here. 
+// Create function for game.
 
-//function - use this later?
-/*
 function game () {
-  alert ("This is a box.");
-}
-*/
 
-/*
-var a = "Fizz";
-var b = "Buzz";
-var c = "FizzBuzz";
-*/
+// For loop runs 1 - 20.
 
-// create variable
-var i = 1;
-
-// loop runs 1 - 20
-while (i <= 20) {
-//if statements 
-//run 3 and 5 first or 3 or 5 will run first
+  for ( i = 1; i <= 20; i++ ) {
+// If statements. 
+// Run 3 and 5 first or 3 or 5 will run first.
+// If divisible by 3 and 5, output FizzBuzz.    
   if ( i % 3 === 0 && i % 5 === 0 ) {
   console.log("FizzBuzz");
+// If divisible by 5, output Buzz.    
 } else if ( i % 5 === 0 )  {
   console.log("Buzz");
+// If divisible by 3, output Fizz.
 } else if ( i % 3 === 0 ) {
   console.log("Fizz");
+// Otherwise, output number.
 } else {
   console.log(i);
     }
-//close while loop
-  i++;
+// Close for loop.
+}
+// Close function.
 }
 
+// Call function.
 
-
+game();
